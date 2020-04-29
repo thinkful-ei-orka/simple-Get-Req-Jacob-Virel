@@ -8,6 +8,9 @@ function getDogImage(input) {
       .catch(error => alert('Something went wrong. Try again later.'));
   }
   
+function displayResults(responseJson){
+    responseJson
+} 
 function watchForm() {
   $('form').submit(event => {
     event.preventDefault();
